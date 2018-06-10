@@ -1,0 +1,149 @@
+div#interface{
+	margin:-20px auto 0px auto;
+	background-color:white;
+	width:850px;
+	padding:12px;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+	position: relative;
+}
+
+body{
+	background-color: grey;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Monoton', cursive;
+}
+
+
+li{
+	display:inline;
+	text-align: center;
+	text-transform:uppercase;
+	margin: 5px;
+}
+ul{
+ 	text-align: center;
+/* 	background-color:#dddddd; */
+ 	margin:1px 90px 1px 90px;
+ 	background-color: beige;
+ }
+
+
+
+header#cabecalho{
+	background-color: grey;
+	margin: -22px 0px 0px 0px;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+img#foto{
+	width: 20%;
+
+}
+p{
+	text-align: justify;
+	text-indent:50px;
+}
+section#esquerdo{
+	display:block;
+	width: 420px;
+	float:left;
+	border-right:1px solid #606060;
+	padding-right:15px;
+	word-wrap: break-word;
+	padding-bottom: 320px;
+}
+section#direito{
+	display: block;
+	width:400px;
+	float: right;
+	word-wrap: break-word;
+
+
+}
+footer#rodape{
+
+	clear:both;
+	border-top:1px solid #606060;
+	
+
+}
+footer#rodape p{
+	text-align:center;
+}
+
+
+/* --> Imagenes  */
+
+.madruga{
+	background-image: url("../imagens/seu-madruga.jpg");
+	border:3px solid brown;
+	float:left;
+	border-collapse: collapse;
+	padding:110px;
+	padding-right: 100px;
+    margin:8px;
+	background-position:-50px -5px;
+
+}
+
+section#esquerdo img#lupa{
+	position: absolute;
+	width: 20%;
+	height: 60px;
+	margin-left: 235px;
+	margin-top: 10px;
+}
+
+section#esquerdo img#bola{
+	position: absolute;
+	width: 10%;
+	height: 40px;
+	margin-left: 120px;
+}
+section#esquerdo img#Guitarra{
+	position: absolute;
+	width: 10%;
+	height: 40px;
+	margin-left: 210px;
+}
+
+section#esquerdo img#controle{
+	position: absolute;
+	width: 10%;
+	height: 40px;
+	margin-left: 300px;
+}
+section#direito img#maleta{
+	position: absolute;
+	width: 10%;
+	height: 40px;
+	margin-left: 100px;
+}
+section#direito img#chave{
+	position: absolute;
+	width: 10%;
+	height: 40px;
+	margin-left: 190px;
+}
+section#direito img#fogos{
+	position: absolute;
+	width: 20%;
+	height: 50px;
+	margin-left: 90px;
+}
+
+
+section#esquerdo img#relogio{
+	position: absolute;
+	width: 11%;
+	height: 55px;
+	margin-left: 130px;
+	margin-top: 18px;
+}
